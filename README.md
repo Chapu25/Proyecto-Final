@@ -4,9 +4,13 @@ Es un E commers que vende bebidas alcohólicas que fue realizado con react-route
 Donde incluye las siguientes funcionalidades:
 
 *Se puede consultar el detalle de los productos en lista 
+
 *Se puede filtrar por precio 
+
 *Se puede buscar un producto en específico 
+
 *Se puede agregar productos al carrito obteniendo un mensaje de confirmación.
+
 *Tiene algunos efectos Hover y transitions scale 
 
 
