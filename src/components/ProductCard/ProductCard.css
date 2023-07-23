@@ -1,0 +1,102 @@
+
+.CartaDeProductos{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 20px;
+    border-radius: 50px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(255, 255, 255);
+}
+.CartaDeProductos img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 2px solid rgb(255, 0, 0);
+    box-shadow: 8px 10px 10px 0px rgba(0,0,0,0.77);
+}
+.CartaDeProductos img:hover{
+    transform: scale(1.1);
+    transition: all 0.5s ease-in-out;
+}
+
+
+.CartaDeProductos button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    border: none;
+    cursor: pointer;
+    width: 40%;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.77);
+    background-color: rgb(0, 0, 0);
+}
+.CartaDeProductos button:hover{
+    background-color: darkred;
+    transition: all 0.3s ease-in-out;
+}
+
+.link{
+    color: rgb(255, 255, 255);
+}
+
+
+
+@media(max-width:800px){
+
+    .CartaDeProductos{
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        gap: 20px;
+        border-radius: 50px;
+    }
+    
+    .CartaDeProductos img{
+        width: 230px;
+        height: 300px;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+
+    .CartaDeProductos button{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        border: none;
+        cursor: pointer;
+        width: 50%;
+        border-radius: 20px;
+        padding: 10px;
+    }
+}
+
+
+@media(max-width:400px){
+
+    .CartaDeProductos{
+        display: flex;
+        flex-direction: column;
+        padding: 15px;
+        gap: 20px;
+        border-radius: 50px;
+    }
+
+    .CartaDeProductos img{
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+}
+
+
+
+
+

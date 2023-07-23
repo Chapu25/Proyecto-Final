@@ -1,0 +1,31 @@
+.CartaDeProductosCarrito{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 20px;
+    border-radius: 50px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    background-color: rgba(0, 0, 0, 0.7);
+    border: 2px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+}
+
+.CartaDeProductosCarrito img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 2px solid rgb(255, 0, 0);
+    box-shadow: 8px 10px 10px 0px rgba(0,0,0,0.77);
+}
+.CartaDeProductosCarrito img:hover{
+    transform: scale(1.1);
+    transition: all 0.5s ease-in-out;
+}
+
+.CartaDeProductosCarrito p{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+
