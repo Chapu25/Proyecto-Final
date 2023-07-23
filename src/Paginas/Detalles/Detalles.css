@@ -104,7 +104,7 @@
 
 
 
-@media(max-width:800px){
+@media(max-width:820px){
 
     .ContenedorDetalles{
         width: 100%;
@@ -124,7 +124,7 @@
         text-align: center;
     }
     .ContenedorImagen img{
-        width: 200px;
+        width: 170px;
         border-radius: 50%;
     }
     .ContenedorImagen p{
